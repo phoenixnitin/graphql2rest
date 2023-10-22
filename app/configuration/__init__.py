@@ -1,0 +1,1 @@
+from .auth_provider_definition import authorizations
