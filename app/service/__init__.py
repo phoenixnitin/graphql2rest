@@ -1,1 +1,1 @@
-from .common_service import login_required
+from .common_service import login_required, required_scope

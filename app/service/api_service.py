@@ -11,7 +11,8 @@ api_v1 = Api(blueprint_v1,
              version='1.0',
              description='A description',
              # All API metadatas
-             security=['api_key', {'OAuth2': ['read', 'write']}]
+             security=['api_key', {'OAuth2': ['read', 'write']}],
+             doc='swagger'
              )
 api_v1.add_namespace(ns1)
 
