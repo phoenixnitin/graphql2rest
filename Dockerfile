@@ -16,4 +16,4 @@ EXPOSE 8000
 
 WORKDIR /
 # Start the Gunicorn server
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "app.startup:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app.startup:app"]
